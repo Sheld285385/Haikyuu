@@ -1,0 +1,74 @@
+nav{
+    background-color: rgb(238, 196, 81);
+    height: 60px;
+    font-size: 20px;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+nav a {
+    color: brown;
+text-decoration:none ;
+}
+nav a:hover{
+    color:cornsilk
+}
+.banner{
+    height: 800px;
+    background: url(https://i.gifer.com/origin/3c/3cb4da586e7f3d6870fdcade5ec50dc8.gif);
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+button{background-color: rgb(238, 196, 81);
+    height: 60px;
+    width: 200px;
+    color:rgb(0, 0, 0);
+    border:none;
+}
+.Позицыи a img{
+    width:220px;
+    height: 220px;
+}
+.волейбол-позицыи{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background: cornflowerblue;
+}
+.волейбол-позицыи h1{
+    position: relative;
+    top: -76px;
+}
+.video{
+    display: flex;
+    flex-flow:column ;
+    align-items: center;
+    justify-content: center;
+    background: rgb(162, 78, 241);
+    padding-top: 12px;
+    height: 1150px;
+}
+.youtube{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+.youtube iframe{
+    margin: 10px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background: crimson;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
