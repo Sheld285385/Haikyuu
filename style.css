@@ -18,7 +18,7 @@ nav a:hover{
     color:cornsilk
 }
 .banner{
-    height: 800px;
+    height: 50vw;
     background: url(https://i.gifer.com/origin/3c/3cb4da586e7f3d6870fdcade5ec50dc8.gif);
     background-size:100%;
     background-repeat:no-repeat;
@@ -35,16 +35,17 @@ button{background-color: rgb(238, 196, 81);
 }
 .волейбол-позицыи{
     display: flex;
+    padding: 70px;
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    height: 600px;
+    /* height: 600px; */
     background: cornflowerblue;
 }
-.волейбол-позицыи h1{
+/* .волейбол-позицыи h1{
     position: relative;
     top: -76px;
-}
+} */
 .video{
     display: flex;
     flex-flow:column ;
@@ -52,7 +53,12 @@ button{background-color: rgb(238, 196, 81);
     justify-content: center;
     background: rgb(162, 78, 241);
     padding-top: 12px;
-    height: 1150px;
+    /* height: 1150px; */
+}
+.Позицыи {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .youtube{
     width: 80vw;
